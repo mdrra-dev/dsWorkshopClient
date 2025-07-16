@@ -39,6 +39,6 @@ conns <- datashield.login(logindata.dslite, assign=T, symbol = "exposures")
 # Test the function
 dsWorkshopClient::ds.mean("exposures", threshold = 5)
 
-```{r}
+```
 
 
